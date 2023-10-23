@@ -1,0 +1,24 @@
+.footer{
+    border-top: 1px solid #c7e8e9;
+    padding: 4rem 0;
+}
+
+.flex{
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+}
+
+.icon a{
+   margin-left: 15px;
+}
+
+
+@media screen and (max-width: 768px) {
+    .flex{
+        
+        text-align: center;
+    }
+
+}
